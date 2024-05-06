@@ -1,10 +1,10 @@
 # eCompassCalibration
 
-dataformat:
+Baudrate:    115200
 
-  sprintf((char*)data, "RAW: %d,%d,%d,%d,%d,%d,%d,%d,%d\n\r", 0, 0, 0, 0, 0, 0, mag.XAxis, mag.YAxis, mag.ZAxis, 0 );
-  Serial.print((char*)data);
+Datenformat:  sprintf((char*)data, "RAW: %d,%d,%d,%d,%d,%d,%d,%d,%d\n\r", acc.x, acc.y, acc.z, gyr.x, gyr.y,gyr.z, mag.x, mag.y, mag.z);
+
 
 # LabView Software
 
-!()[./pict/main_1.png]
+<img src="./pict/main_1.png">

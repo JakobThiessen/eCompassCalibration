@@ -8,3 +8,8 @@ Datenformat:  sprintf((char*)data, "RAW: %d,%d,%d,%d,%d,%d,%d,%d,%d\n\r", acc.x,
 # LabView Software
 
 <img src="./pict/main_1.png">
+
+<img src="./pict/main_2.png">
+
+
+<img src="./pict/main_2_compensation.png">

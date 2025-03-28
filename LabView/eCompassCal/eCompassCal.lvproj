@@ -12,9 +12,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="calcOffset.vi" Type="VI" URL="../calcOffset.vi"/>
-		<Item Name="filter.vi" Type="VI" URL="../filter.vi"/>
-		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="eCompassCal" Type="Folder" URL="..">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
